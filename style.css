@@ -20,3 +20,46 @@ body {
     font-size: 40px;
 }
 
+#taskCount {
+    width: 90%;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+#taskCount div {
+    background: white;
+
+    width: 220px;
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: .3s;
+}
+
+#taskCount div:hover {
+    transform: translateY(-5px);
+}
+
+#taskCount div p:first-child {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.score,
+#score {
+    margin-top: 10px;
+    color: #555;
+    font-size: 18px;
+}
