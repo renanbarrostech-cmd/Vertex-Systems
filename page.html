@@ -4,35 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Vertex-Systems</title>
 </head>
 
 <body>
     <!-- Cabeçalho: onde vai ficar a logo -->
-    <header>Vertex Systems</header>
+    <header id="logo">
+        <h1>Vertex Systems</h1>
+    </header>
 
     <!-- Contagem de tarefas -->
-    <section>
+    <section id="taskCount">
         <div>
-            <p></p>
-            <p>Total</p>
+            <p>0</p>
+            <p class="score">Total</p>
         </div>
         <div>
-            <p></p>
-            <p>Pendentes</p>
+            <p>0</p>
+            <p class="score">Pendentes</p>
         </div>
         <div>
-            <p></p>
-            <p>Atrasadas</p>
+            <p>0</p>
+            <p class="score">Atrasadas</p>
         </div>
         <div>
-            <p></p>
-            <p>Concluidas</p>
+            <p>0</p>
+            <p id="score">Concluidas</p>
         </div>
     </section>
     <!-- Formulario para criar task -->
     <main>
-        <form>
+        Formulario de cadastro de tarefas
+        <form class="frm">
             <input type="text" placeholder="Descrição">
             <input type="text" placeholder="Categoria">
             <input type="text" placeholder="Prazo">

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+}
+
+#logo {
+    text-align: center;
+    padding: 35px;
+}
+
+#logo h1 {
+    color: #2563eb;
+    font-size: 40px;
+}
+
