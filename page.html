@@ -35,7 +35,7 @@
     </section>
     <!-- Formulario para criar task -->
     <main>
-        Formulario de cadastro de tarefas
+        <h2>Cadastrar nova tarefa</h2>
         <form class="frm">
             <input type="text" placeholder="Descrição">
             <input type="text" placeholder="Categoria">
@@ -44,20 +44,26 @@
         </form>
     </main>
     <!-- filtros busca e ordenação -->
-    <section>
-        <button></button>
-        <button></button>
-        <button></button>
-        <input type="text">
+    <section class="filters">
+
+        <button>Todas</button>
+        <button>Pendentes</button>
+        <button>Concluídas</button>
+
+        <input type="text" placeholder="Pesquisar tarefa">
+
         <select>
             <option value="low">Baixa</option>
             <option value="medium" selected>Média</option>
             <option value="high">Alta</option>
         </select>
+
     </section>
-    <!-- Lista de task -->
-    <section>
-        tarefas
+
+    <!-- Lista de tarefas -->
+
+    <section class="task-list">
+
     </section>
 </body>
 
